@@ -420,10 +420,7 @@ img {
     width: 264px;
   }
 
-  .page-footer-div{
-    display: flex;
-    align-items: baseline;
-  }
+  
   .footer-div{
     margin-right: 120px;
   }
