@@ -1,14 +1,4 @@
-.page-footer-link {    
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  color: #4D5AE5;
-  display: inline-block;
-  margin-bottom: 16px;
-}
+
 h1,
 h2,
 h3,
@@ -36,7 +26,7 @@ img {
   
   .link {
     text-decoration: none;
-    display: inline-block;
+
   }
   
   button {
@@ -704,5 +694,16 @@ img {
   margin-right: auto;
 }
 .modal-form-label-div-fourth{
+  margin-bottom: 16px;
+}
+.page-footer-link {    
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #4D5AE5;
+  display: inline-block;
   margin-bottom: 16px;
 }
