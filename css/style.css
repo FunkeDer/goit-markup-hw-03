@@ -218,11 +218,6 @@ letter-spacing: 0.02em;
   padding: 32px 0;
 }
 
-.team-img {
-  background-color: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
-
-}
-
 .team-h {
   color: #2E2F42;
   text-align: center;
@@ -272,11 +267,6 @@ letter-spacing: 0.02em;
   ;
 }
 
-.team-link:hover,
-.team-link:focus {
-  background-color: #404bbf;
-}
-
 .team-link-svg {
   fill: #f4f4fd;
 }
@@ -321,13 +311,6 @@ letter-spacing: 0.02em;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-portfolio-list-item:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.our-portfolio-list-item:hover .portfolio-div-p {
-  transform: translateY(0%);
-}
 
 .our-portfolio-h {
   color: #2E2F42;
@@ -452,277 +435,7 @@ letter-spacing: 0.02em;
       ;
     }
   
-    .footer-social-link:hover,
-    .footer-social-link:focus {
-      background-color: #31d0aa;
-    }
-  
-    .footer-social-svg {
-      fill: #f4f4fd;
-    }
-  
-  
-    .footer-form-p {
-      margin-bottom: 16px;
-      text-align: center;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-      color: #ffffff;
-    }
-  
-    .footer-form {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      align-items: center;
-    }
-  
-    .footer-form-input {
-      width: 288px;
-      height: 40px;
-      border: 1px solid #ffffff;
-      background-color: transparent;
-      font-size: 12px;
-      line-height: 1.5;
-      letter-spacing: 0.04em;
-      padding-left: 16px;
-      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-      border-radius: 4px;
-      color: #ffffff;
-    }
-  
-    .footer-form-input::placeholder {
-      color: #ffffff;
-    }
-  
-    .footer-form-btn {
-      display: flex;
-      max-width: 165px;
-      height: 40px;
-      justify-content: center;
-      align-items: center;
-      font-family: "Roboto", sans-serif;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 1.5;
-      letter-spacing: 0.04em;
-      color: #ffffff;
-      cursor: pointer;
-      background-color: #4D5AE5;
-      border: none;
-      border-radius: 4px;
-      padding: 8px 24px;
-    }
-  
-    .form-btn-svg {
-      margin-left: 16px;
-    }
-  .modal.is-open {
-  display: none;
-}
-
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(46, 47, 66, 0.4);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-window {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
-  width: 288px;
-  min-height: 623px;
-  background: #fcfcfc;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /*padding: 72px 24px 24px 24px;*/
-  padding-top: 72px;
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
-.modal-window-exit-btn {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #e7e9fc;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 0;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-window-exit-btn:hover,
-.modal-window-exit-btn:focus {
-  background-color: #404bbf;
-  border: none;
-}
-
-.exit-btn-svg {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-window-exit-btn:focus .exit-btn-svg,
-.modal-window-exit-btn:hover .exit-btn-svg {
-  fill: #ffffff;
-}
-
-.modal-p {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #2E2F42;
-  margin-bottom: 16px;
-}
-
-.modal-form-label-div {
-  margin-bottom: 8px;
-}
-
-.modal-form-label {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  display: block;
-  margin-bottom: 4px;
-}
-
-.modal-form-input-div {
-  position: relative;
-  
-}
-
-.modal-form-input {
-  width: 100%;
-  height: 40px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
-  background-color: transparent;
-  padding-left: 38px;
-  outline: transparent;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-form-input:focus {
-  border-color: #4D5AE5;
-}
-
-.modal-form-input-svg {
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-form-input:focus+.modal-form-input-svg {
-  fill: #4D5AE5;
-}
-
-.modal-form-textarea {
-  width: 100%;
-  height: 120px;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
-  background-color: transparent;
-  padding: 8px 16px;
-  outline: transparent;
-  resize: none;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.modal-form-textarea:focus {
-  border-color: #4D5AE5;
-}
-
-.modal-form-checkbox-ladel-label {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  ;
-}
-
-.modal-form-checkbox-ladel-span {
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-}
-
-.modal-form-checkbox-ladel {
-  margin-bottom: 24px;
-}
-
-.modal-form-checkbox:checked+.modal-form-checkbox-ladel-label .modal-form-checkbox-ladel-span {
-  background-color: #404bbf;
-  fill: #F4F4FD;
-  border: none;
-}
-
-.modal-form-checkbox-ladel-label-a {
-  color: #4d5ae5;
-
-}
-
-.modal-form-btn {
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-  background-color: #4D5AE5;
-  border: none;
-  border-radius: 4px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.modal-form-label-div-fourth {
-  margin-bottom: 16px;
-}
-
-@media screen and (min-resolution: 192dpi) and (max-width: 767px),
-screen and (min-resolution: 2dppx) and (max-width: 767px),
-screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
-  .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Dark-bg@2x.jpg');
-  }
-}
+   
 /*=======  /header styles mobile first =======*/
 @media screen and (max-width: 767px) {
   .mobile-menu {
@@ -1084,18 +797,12 @@ letter-spacing: 0.02em;
 
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 768px),
-screen and (min-resolution: 2dppx) and (min-width: 768px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
-  .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Dark-bg-tablet@2x.jpg');
-  }
-}
+
 
 /*======= /media tablet style ======*/
 
 /*=======media laptop style =======*/
-@media screen and (min-width: 1158px) {
+
   .section{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -1128,7 +835,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
   .hero{
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
     max-width: 1440px;
   }
     
@@ -1232,13 +938,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 .footer-form-input {
   width: 264px;
 }  
-}
-@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
-screen and (min-resolution: 2dppx) and (min-width: 1158px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
-  .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office@2x.jpg');
-  }
-} 
+
+
 /* =======/media laptop style ====== */ 
 
