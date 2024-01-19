@@ -1,3 +1,14 @@
+.page-footer-link {    
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #4D5AE5;
+  display: inline-block;
+  margin-bottom: 16px;
+}
 h1,
 h2,
 h3,
@@ -404,17 +415,7 @@ img {
     padding: 100px 0;
   }
   
-  .page-footer-link {    
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    color: #4D5AE5;
-    display: inline-block;
-    margin-bottom: 16px;
-  }
+
   .page-footer-studio {
     color: #f4f4fd;
   }
